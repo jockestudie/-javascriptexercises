@@ -16,6 +16,11 @@ document.getElementById("square").addEventListener("click", function () {
         isPositive = false;
     }
 
+    //Algoritrm
+
+    //let answer = Math.sqrt(input);
+
+    
     square = number / 2;
     while(Math.abs(n1 - square) !== 0) {
         n1 = square;
@@ -36,5 +41,5 @@ document.getElementById("square").addEventListener("click", function () {
 
 
 
-    //let answer = Math.sqrt(input);
+
 
