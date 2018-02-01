@@ -6,9 +6,9 @@ document.getElementById("square").addEventListener("click", function () {
     let isPositive = true;
 
     if(number === 0){
-        document.getElementById("answer").innerHTML = "The square root of " + number
-        + "is 0."
-
+        document.getElementById("answer").innerHTML = "The square root of  " + number
+        + " is 0."
+        return;
     }
 
     else if (number < 0){
@@ -18,14 +18,14 @@ document.getElementById("square").addEventListener("click", function () {
 
     //Algoritrm
 
-    //let answer = Math.sqrt(input);
+    square = Math.sqrt(number);
 
-    
-    square = number / 2;
+
+    /*square = number / 2;
     while(Math.abs(n1 - square) !== 0) {
         n1 = square;
         square = (n1 + (number/n1)) /2;
-    }
+    }*/
 
     if(isPositive){
         document.getElementById("answer").innerHTML = "The square root of  " + number
