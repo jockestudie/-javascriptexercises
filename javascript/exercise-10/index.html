@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Number guessing game</title>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+        body {
+            width: 50%;
+            max-width: 800px;
+            min-width: 480px;
+            margin: 0 auto;
+        }
+
+        .lastResult {
+            color: white;
+            padding: 3px;
+        }
+    </style>
+</head>
+
+<body>
+<h1>Gissa ett nummer!!</h1>
+<p>Välj ett valfritt nummer mellan 1-100. Du har tre gissningar på dig att gissa rätt. Du får reda på om din gissning är för hög eller låg..</p>
+<div class="form"> <label for="guessField">Gör en gissning: </label><input type="text" id="guessField" class="guessField"> <input type="submit" value="Gissa!" class="guessSubmit"> </div>
+<div class="resultParas">
+    <p class="guesses"></p>
+    <p class="lastResult"></p>
+    <p class="lowOrHi"></p>
+</div>
+</body>
+<script src="index.js"></script>
+
+</html>
