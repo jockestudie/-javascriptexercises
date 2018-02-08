@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Jocke P">
+
+    <title>Bookmarker</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body onload="fetchBookmarks()">
+
+
+
+<main role="main">
+
+
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-3">Bookmarker</h1>
+
+            <form id="myForm">
+                <div class="form-group">
+                    <label>Site Name</label>
+                    <input type="text" class="form-control" id="siteName" placeholder="Website Name">
+                </div>
+                <div class="form-group">
+                    <label>Site URL</label>
+                    <input type="text" class="form-control" id="siteUrl" placeholder="Website URL">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+        <div class="row" >
+            <div class="col-md-12 ">
+                <div id="bookmarksResults"></div>
+            </div>
+
+        </div>
+
+        <hr>
+
+
+
+</main>
+
+<footer class="container">
+    <p>&copy; Bookmarker 2018</p>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
